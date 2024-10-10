@@ -12,7 +12,7 @@ int main() {
     printf("Enter income in shs:");
     scanf("%d", &income);
     
-    if(age<=21&&income<=21000){
+    if(age>=21&&income>=21000){
     printf("congratulations,you quality for our loan");
     }else{
     printf("unfortunatly,we are unable to offer you our loan");
