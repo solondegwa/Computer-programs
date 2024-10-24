@@ -36,9 +36,9 @@ student1.marks = 89.7;
  //  display the output
  printf("registration number:%s\n", student1.Reg_No);
  printf("email:%s\n", student1.email);
- printf("phone number:%d", student1.phone);
- printf("ID:%d", student1.ID);
+ printf("phone number:%d\n", student1.phone);
+ printf("ID:%d\n", student1.ID);
  printf("name:%s\n", student1.name);
- printf("marks:%f", student1.marks);
+ printf("marks:%f\n", student1.marks);
  return 0;
  }
